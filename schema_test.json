@@ -1,22 +1,19 @@
 {
   "type": "object",
   "properties": {
-    "explanations": {
-      "type": "object",
-      "properties": {
-        "ア": { "type": "string" },
-        "イ": { "type": "string" },
-        "ウ": { "type": "string" },
-        "エ": { "type": "string" }
-      },
-      "required": ["ア", "イ", "ウ", "エ"],
-      "additionalProperties": false
+    "ア": {
+      "type": "string"
     },
-    "final_answer": {
-      "type": "string",
-      "description": "正解の選択肢（例：ア）"
+    "イ": {
+      "type": "string"
+    },
+    "ウ": {
+      "type": "string"
+    },
+    "エ": {
+      "type": "string"
     }
   },
-  "required": ["explanations", "final_answer"],
+  "required": ["ア", "イ", "ウ", "エ"],
   "additionalProperties": false
 }
